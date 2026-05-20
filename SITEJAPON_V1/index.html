@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japon site - Accueil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-accueil">
+  <div id="sakura-container"></div>
+  <script src="sakura.js"></script>
+  
+  <header class="site-header">
+    <nav class="nav">
+      <div class="container nav__inner">
+        <a class="brand" href="index.html">日本 Japon</a>
+
+        <div class="dropdown">
+          <input type="checkbox" id="navdrop" class="dropdown__toggle">
+          <label for="navdrop" class="dropdown__btn">Navigation</label>
+
+          <ul class="dropdown__menu">
+            <li><a class="is-active" href="index.html">Accueil</a></li>
+            <li><a href="lieu.html">Lieu</a></li>
+            <li><a href="auteur.html">Personnage</a></li>
+            <li><a href="oeuvre.html">Œuvre</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Découvrir le Japon</h1>
+        <p class="lead">
+          Le Japon est un pays d’Asie de l’Est, connu pour ses traditions,
+          ses villes modernes, ses paysages variés et son patrimoine culturel.
+        </p>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h2>Explorer le site</h2>
+
+        <div class="cards">
+          <article class="card">
+            <a class="card__link" href="lieu.html">
+              <div class="card__media">
+                <img src="https://images.unsplash.com/photo-1729864881494-d96345092845?w=1200" alt="Lieu incontournable au Japon">
+              </div>
+              <div class="card__content">
+                <h3>Lieu incontournable</h3>
+                <p>Découvrir un site touristique majeur et des activités associées.</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="card">
+            <a class="card__link" href="auteur.html">
+              <div class="card__media">
+                <img src="https://images.unsplash.com/photo-1763315371267-86318801d8ed?w=1200" alt="Personnage célèbre japonais">
+              </div>
+              <div class="card__content">
+                <h3>Personnage célèbre</h3>
+                <p>Portrait, faits marquants et lieux liés à la personne.</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="card">
+            <a class="card__link" href="oeuvre.html">
+              <div class="card__media">
+                <img src="https://images.unsplash.com/photo-1705674151785-e50a1ec79cd8?w=1200" alt="Œuvre artistique japonaise">
+              </div>
+              <div class="card__content">
+                <h3>Œuvre artistique</h3>
+                <p>Contexte, description, galerie et lieu d’exposition.</p>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="container grid-2">
+        <article class="panel">
+          <h2>Fiche pays</h2>
+          <ul class="facts">
+            <li><strong>Nom du pays :</strong> Japon</li>
+            <li><strong>Monnaie :</strong> Yen (JPY)</li>
+            <li><strong>Langue officielle :</strong> Japonais</li>
+            <li><strong>Capitale :</strong> Tokyo</li>
+          </ul>
+        </article>
+
+        <article class="panel">
+          <h2>Démographie</h2>
+          <ul class="facts">
+            <li><strong>Population :</strong> environ 123,1 millions d’habitants</li>
+            <li><strong>Densité :</strong> environ 338 hab./km²</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Situation géographique</h2>
+
+        <div class="geo">
+          <figure class="geo__item">
+            <img src="image/Carte_japon.jpg" alt="Localisation du Japon sur une mappemonde">
+            <figcaption>Mappemonde : localisation</figcaption>
+          </figure>
+
+          <figure class="geo__item">
+            <img src="image/villesjapon.jpg" alt="Carte du Japon avec villes et régions">
+            <figcaption>Carte : villes et régions</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="container grid-2">
+        <article class="panel">
+          <h2>Emblèmes</h2>
+          <ul class="facts">
+            <li>
+              <strong>Drapeau :</strong>
+              <img class="flag" src="image/drapeaujap.png" alt="Drapeau du Japon">
+            </li>
+            <li><strong>Devise :</strong> Aucune devise officielle</li>
+            <li><strong>Hymne national :</strong> Kimigayo</li>
+          </ul>
+        </article>
+
+        <article class="panel">
+          <h2>Formalités d’entrée</h2>
+          <p>
+            Pour un ressortissant français, aucun visa n’est requis pour un séjour
+            touristique inférieur à 90 jours. Un passeport valide est nécessaire.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Histoire</h2>
+        <p class="lead small">
+          Le Japon a connu de grandes périodes historiques marquées par des transformations
+          politiques, sociales et culturelles majeures.
+        </p>
+
+        <div class="timeline">
+          <article class="timeline__item">
+            <div class="timeline__date">1603</div>
+            <div class="timeline__content">
+              <h3>Début de l’époque Tokugawa (Edo)</h3>
+              <p>Mise en place du shogunat Tokugawa et stabilité politique durable.</p>
+              <img src="image/edo.png" alt="Époque Edo">
+            </div>
+          </article>
+
+          <article class="timeline__item">
+            <div class="timeline__date">1868</div>
+            <div class="timeline__content">
+              <h3>Restauration de Meiji</h3>
+              <p>Fin du shogunat et modernisation rapide du pays.</p>
+              <img src="image/meiji.jpg" alt="Restauration de Meiji">
+            </div>
+          </article>
+
+          <article class="timeline__item">
+            <div class="timeline__date">1947</div>
+            <div class="timeline__content">
+              <h3>Constitution du Japon</h3>
+              <p>Nouvelle constitution fondée sur la souveraineté du peuple.</p>
+              <img src="image/Constitution.jpg" alt="Constitution japonaise">
+            </div>
+          </article>
+
+          <article class="timeline__item">
+            <div class="timeline__date">11 mars 2011</div>
+            <div class="timeline__content">
+              <h3>Séisme et tsunami de Tōhoku</h3>
+              <p>Catastrophe majeure ayant marqué durablement le pays.</p>
+              <img src="image/tsunami.avif" alt="Séisme et tsunami de 2011">
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <section class="section section--white">
+    <div class="container">
+      <h2>Sources</h2>
+
+      <ul class="sources">
+        <li>
+          Population et densité :
+          <a href="https://www.worldbank.org/" target="_blank">
+            World Bank
+          </a>
+        </li>
+
+        <li>
+          Informations générales, histoire :
+          <a href="https://www.britannica.com/place/Japan" target="_blank">
+            Encyclopaedia Britannica
+          </a>
+        </li>
+
+        <li>
+          Formalités d’entrée :
+          <a href="https://www.diplomatie.gouv.fr/" target="_blank">
+            Ministère de l’Europe et des Affaires étrangères
+          </a>
+        </li>
+
+        <li>
+          Images :
+          <span> Wikipédia / sources libres</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Japon site</p>
+    </div>
+  </footer>
+</body>
+</html>
